@@ -98,3 +98,7 @@ source /etc/network/interfaces.d/*
 ## After Update Trunk
 <img width="840" height="157" alt="image" src="https://github.com/user-attachments/assets/e30c973b-4be5-4336-a377-64b84c508ebc" />
 
+<br />
+>
+> From this point forward, we can choose between two approaches: defining VLANs directly in the /etc/network/interfaces file or managing them through Proxmox SDN. The recommended approach is outlined below.
+
