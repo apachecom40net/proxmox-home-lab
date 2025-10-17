@@ -38,6 +38,12 @@ source /etc/network/interfaces.d/*
 ## ########### ########### #################### ########### ###########
 ```
 
+## ip -br link show execution after first update
+<img width="791" height="185" alt="image" src="https://github.com/user-attachments/assets/e98d0e50-dde7-4659-a6ba-e109ecdd92cc" />
+
+
+
+
 ## Adding the Trunk
 ````
 ## ########### ########### #################### ########### ###########
