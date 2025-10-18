@@ -90,7 +90,14 @@ iface bond0 inet manual
 ## ########### ########### #################### ########### ###########
 ## Next Steps Build the 
 ## ########### ########### #################### ########### ###########
-
+auto vmbr0
+iface vmbr0 inet manual
+    bridge-ports bond0
+    bridge-stp off
+    bridge-fd 0
+    bridge-vlan-aware yes
+    bridge-vids 2-4094
+    comment "VLAN-aware bridge on LACP bond — VM/CT network"
 ## Include files from /etc/network/interfaces.d:
 source /etc/network/interfaces.d/*
 ````
